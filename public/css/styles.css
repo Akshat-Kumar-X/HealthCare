@@ -1,0 +1,128 @@
+body::before {
+    display: block;
+    content: "";
+    height: 30px;
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+.wrapper {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(14), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.Review_heading {
+    margin-left: 55px;
+    color: darkblue;
+    font: 3rem;
+}
+
+.review {
+    margin-left: 55px;
+    font-size: 24px;
+}
+
+.button {
+    margin-left: 55px;
+    margin-bottom: 15px;
+
+}
+
+.a {
+    margin-left: 55px;
+}
+
+.img-1 {
+    margin: 0px;
+    max-width: 20%;
+    border-radius: 10%;
+    float: left;
+
+}
+
+.name {
+    float: top;
+    padding-top: 10px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    font-size: 22px;
+
+}
+
+.con {
+    background-color: #7299de;
+    margin: 0px;
+
+    border-style: inset;
+}
+
+.button1 {
+    margin-top: 20px;
+    margin-left: 40%;
+    max-width: 50%;
+}
+
+.words {
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding: 10px;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+
+}
+
+.title {
+    padding: 5px;
+    margin-top: 10px;
+    background-color: lightblue;
+}
+
+.para {
+    padding: 10px;
+
+    float: bottom;
+}
+
+.number {
+    color: black;
+    font-size: 16px;
+}
+
+#Views {
+    width: 300px;
+    height: 150px;
+    resize: vertical;
+}
+
+.Contact {
+    background-color: #7299de;
+    text-align: center;
+}

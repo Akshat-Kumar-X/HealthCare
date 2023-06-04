@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Discussion App</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+        <link href="css/forum.css" type="text/css" rel="stylesheet" />
+
+    </head>
+    <body>
+        <div class="navbar">
+            
+            <h1 style="margin-bottom: 20px;"> SoulCare Discussion Portal <a style = "text-decoration: none; color:aliceblue ;background-color: rgb(69, 123, 218); border-radius: 5px; padding: 5px; margin-left:50%" href="/">Home</a></h1>
+            
+        </div>
+        <div class="app_body">
+            <div class="activity">
+                <div class="actions">
+                    <button> New Question form </button>
+                    <input type="text" placeholder="search questions..."/>
+                </div>
+                <div class="questions">
+                    <ul>
+                        <div id="not_found" class="filtered_out">No match found</div>
+                    </ul>
+                </div>
+            </div>
+            <div class="question_form">
+                <div class="new_form">
+                    <h1>Welcome to Discussion Portal</h1>
+                    <p>Enter a subject and question to get started</p>
+                    <form>
+                        <input type="text" name="subject" placeholder="Subject" required />
+                        <textarea name="question" placeholder="Question" required ></textarea>
+                        <input type="submit" value="Submit" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
