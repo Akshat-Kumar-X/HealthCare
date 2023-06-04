@@ -101,6 +101,6 @@ function checkNotAuthenticated(req, res, next) {
     next();
 }
 
-app.listen(3000, function (req, res) {
+app.listen(process.env.PORT || 3000, function (req, res) {
     console.log("Server with port 3000 Started");
 });
